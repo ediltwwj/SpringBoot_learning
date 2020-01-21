@@ -1,0 +1,10 @@
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/springboot_test
+  userName: root
+  password: 123456
+
+# 激活其他yml配置文件,只要写-之后的名称
+spring:
+  profiles:
+    active: abc,def

@@ -1,0 +1,5 @@
+多个yml配置文件:在SpringBoot中是被允许的。
+这些配置文件的名称必须为application-***.yml，并且这些配置文件必须要在application.uml配置文件中被激活之后才可以使用
+
+如果properties和yml配置文件同时存在在SpringBoot项目中;那么这两类配置文件都有效。
+在两个配置文件中如果存在同名的配置项则以properties文件为主
